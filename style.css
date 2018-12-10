@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+
+img {
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 4.5em !important;
+    letter-spacing: 1.5px;
+
+}
+
+span {
+    color: #f16272 !important;
+
+}
+/*-------Top Navigation and Carousel-----*/
+
+#head {
+    height: 50% !important;
+    position: relative;
+}
+
+.navbar {
+    background: transparent !important;
+    z-index: 1;
+}
+.navbar-nav{
+    padding: 20px 10px;
+}
+.nav-item .nav-link{
+    color: #fff;
+}
+
+.carousel {
+    margin-top: -150px;
+}
+
+.carousel-item img {
+    filter: grayscale(1);
+}
+
+.carousel-caption-body {
+   margin-top: -350px !important;
+}
+
+.carousel-caption-body .btn {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    width: 20%;
+    border-style: none !important;
+    border-radius: 0px;
+    padding: 10px 0px;
+}
+
+/*-------Program-----*/
+
+#program {
+    margin-top:600px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+#program .container {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin-top: -270px;
+}
+
+.program-single{
+    height: 300px;
+    width: calc(100% / 3);
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    filter: grayscale(1);
+}
+
+.program-single:hover {
+    filter: grayscale(0);
+
+}
+
+.program-title h3 {
+    text-transform: uppercase !important;
+    padding-top: 40px;
+    letter-spacing: 2px;
+}
+
+.program-text p {
+    font-family: 'Raleway', sans-serif;
+    padding: 40px 10px;
+    color: #fff;
+}
+
+.program-single.first, .program-single.second, .program-single.third {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.program-single.first{
+    background-image: url('images/program1.jpeg');
+}
+
+.program-single.second{
+    background-image: url('images/program2.jpg');
+}
+
+.program-single.third{
+    background-image: url('images/program3.jpeg');
+}
+
+.program-single .btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-style: none !important;
+    border-radius: 0px !important;
+    padding: 5px 10px;
+    margin-top: -20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.program-single:hover .btn {
+    opacity: 1;
+
+
+}
+
+.offer {
+    position: absolute;
+    z-index: 4;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(218, 189, 146, 1.0);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+    padding: 25px 7px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #333;
+    top: -20px;
+    left: 50px;
+    
+}
+
+
+/*--------quote-----*/
+
+#quote {
+    background-image: url('images/other-program.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -210px;
+    padding: 300px 0px 60px;
+    min-height: 100%;
+
+}
+
+#quote h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 3.5em;
+    letter-spacing: 1px;
+    width: 350px;
+    border-right: 5px solid coral;   
+}
+
+#quote h3::after {
+    content: 'result';
+    display: block;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #01ad7b;
+    padding-left: 370px;
+   
+
+}
+
+
+/*--------Most of the people join-----*/
+
+#most-people {
+    padding: 60px 0px 80px;
+
+}
+
+#most-people h1 {
+    text-align: center;
+    font-size: 3em !important;
+}
+
+#most-people p {
+    text-align: center;
+    padding-top: 10px;
+    color: #808080 !important;
+}
+
+.other-program-single {
+    margin-top: 40px;
+    padding: 20px 5px 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    width: 100%;
+    background-color: #f2f3f7 !important;
+    transition: 0.5s;
+}
+
+.other-program-single  img {
+    width: 35px;
+    height: 35px;
+    padding-bottom: 5px;
+}
+
+.other-program-single h5 {
+    text-transform: uppercase;
+    color: #333;  
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    padding: 5px 0px;
+}
+
+.other-program-single p {
+    padding: 5px 0px;
+    color: #808080;
+    transition: 0.5s;
+}
+
+
+/*-------This week------*/
+
+#this-week {
+    padding: 130px 0px 60px;
+    background-image: url('images/this-week.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+#this-week h1, #this-week p {
+    text-align: center;
+    color: #fff;
+}
+
+.week {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+.week ul {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+} 
+
+.week ul li {
+    list-style: none;
+    min-height: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.week ul .active {
+    background-color: #01ad7b;
+    
+}
+
+.week ul .active a {
+    color: #fff;
+}
+
+.week ul li:hover {
+    background-color: #01ad7b;
+    
+}
+
+.week ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.week ul li:hover a {  
+    color: #fff;
+}
+
+#this-week .program {
+    padding-top: 60px;
+}
+
+#this-week .col-md-3 {
+    margin-bottom: 50px;
+}
+
+.this-week-program {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.this-week-program img {
+    padding-bottom: 30px;
+}
+
+.this-week-program .time {
+    background-color: #01ad7b;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.program-title  {
+    margin-top: 17px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.instructor p {
+    padding-top: 10px;
+    color: #808080!important;
+}
