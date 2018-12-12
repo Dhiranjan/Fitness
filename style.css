@@ -51,6 +51,10 @@ span {
     font-size: 14px;
 }
 
+#head .bg-primary {
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+
 .carousel {
     margin-top: -150px;
 }
@@ -85,7 +89,7 @@ span {
     width: 100% !important;
     display: flex;
     justify-content: center;
-    margin-top: -270px;
+    margin-top: -210px;
 }
 
 .program-single{
@@ -622,7 +626,67 @@ input[type="button"] {
 }
 /*------Footer-----*/
 #footer {
-    padding: 100px 50px;
+    padding: 100px 50px 30px;
     background-color: #333;
     min-height: 70%;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+
 }
+#footer h5 {
+    padding-bottom: 30px;
+}
+
+#footer p {
+    font-size: 15px;
+}
+
+.about {
+    width: 80%;
+    text-align: justify
+}
+
+#footer ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer ul li a:hover {
+    color: #007bff !important;
+}
+
+.post {
+    display: flex;
+}
+
+.post-content {
+    padding-left: 20px;
+}
+
+.post-content :nth-child(2){
+    margin-top: -17px;
+    color: #007bff;
+    font-size: 13px;
+    
+}
+
+.footer-contact span {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.footer-contact i {
+    padding-bottom: 15px;
+}
+
+#footer .fa {
+    color: #007bff;
+    font-size: 20px;
+} 
