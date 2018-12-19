@@ -644,7 +644,7 @@ input[type="button"] {
 
 .about {
     width: 80%;
-    text-align: justify
+    text-align: justify;
 }
 
 #footer ul li {
@@ -694,4 +694,5 @@ input[type="button"] {
 .apps {
     margin-top: 25px;
 }
+
 
