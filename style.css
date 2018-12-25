@@ -374,9 +374,6 @@ span {
     color: #808080 !important;
 }
 
-/* #membership .row {
-    margin: o auto;
-} */
 
 .membership-single {
     background-color: #f2f3f7;
@@ -489,7 +486,7 @@ form {
 /*--------Our Team------*/
 
 #team {
-    padding: 100px 0px 20px;
+    padding: 100px 0px 0px;
     text-align: center;
 }
 
@@ -509,7 +506,7 @@ form {
 
 .col-md-4 img {
     min-height: 350px;
-    min-width: 350px;
+    min-width: 320px;
     transition: 0.5s;
     filter: grayscale(1);
 }
@@ -606,7 +603,7 @@ input[type="button"] {
 }
 
 .textarea {
-    max-width: 200%;
+    /* max-width: 440px; */
     max-height: 100px;
     margin-top: 25px;
     background-color: transparent !important;
