@@ -1,471 +1,845 @@
-/*------Responsive------*/
-.fa-bars {
-    color: #fff;
-}
+        /*-------Small Screen Device-----*/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+    /*Navigation Bar*/
+        .fa-bars {
+            color: #fff;
+        }
 
-@media all and (min-width: 0px) and (max-width: 320px){
+        #head .bg-primary {
+            background-color: rgba(0, 0, 0, 0);
+        }
 
-    /*----Carousel---*/
+        .navbar-nav {
+            text-align: center;
+        }
+
+        .navbar-nav .nav-item {
+            border-bottom: 1px dotted #fff;
+        }
+        
+    /*Carousel*/
+        .carousel {
+            margin-top: 0px;
+        }
+
+        .carousel-caption-body {
+            margin-top: 120px !important;
+        }
+        
+        .carousel-caption-body h1{
+            font-size: 1.2em !important;
+        }
+
+        .carousel-caption-body .btn { 
+            margin-top: 10px;
+            width: 50%;
+        }
+    /*Program*/
+        #program {
+            margin-top:120px;
+            padding: 0px;
+        }
+
+        .program-single{
+            width: 100%;
+            margin-bottom: 30px;
+            filter: grayscale(0);
+
+        }
+
+        .program-single .btn{
+            margin-top: -80px;
+            min-width: 50%;
+            opacity: 1;
+        }
+        
+        .offer {
+            width: 70px;
+            height: 40px;
+            border: none;
+            border-radius: 0%;
+            padding: 10px 5px;
+            font-size: 16px;
+            box-shadow: 11px 12px 33px -10px (242,242,242,1);
+            top: 20px;
+            left: 10px;
+        }
+
+        /*quote*/
+
+        #quote {
+            margin-top: -40px;
+            padding: 100px 0px 60px;
+            min-height: 100%;
+        }
+
+        #quote h3 {
+            font-size: 3.5em;
+            letter-spacing: 1px;
+            max-width: auto;
+            border-right: none;   
+        }
+        
+        #quote h3::after {
+            font-size: 1.5em;
+            padding-left: 0px;
+        }
+
+        /*This Week*/
+
+        .week ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            height: 100%;
+            padding: 10px;
+            background-color: #fff;
+        } 
+        
+        .week ul li:hover {
+            background-color: #007bff;
+        }
+
+        /*Our Team*/
+        .col-md-4 img {
+            max-height: 350px;
+            max-width: 320px;
+            transition: 0.5s;
+            filter: grayscale(1);
+        }
+
+        /*Contact*/
+        #contact {
+            padding: 30px 0px;
+            text-align: center;
+        }
+
+        #contact h3 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 3.5em;
+            letter-spacing: 0px;
+            border-right: none;   
+        }
+
+        .form-body {
+            margin-top: 50px;
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        
+        }
+
+        input[type="button"] {
+            width: 60%;   
+        }
+
+        .textarea {
+            max-width: 100%;
+            max-height: 100px;
+            margin-top: 25px;
+            background-color: transparent !important;
+            border: 1px solid #fff;
+            padding: 10px 0px 0px 10px;
+        }
+
+        /*Footer*/
+
+        .about {
+            width: 100%;
+            text-align: justify;
+        }
+        
+        #footer h5 {
+            padding: 30px 0px 10px;
+        }
+        
+        .apps {
+            margin-top: 25px;
+        }
+        
+        .apps img {
+            display: block;
+            float: left;
+            width: 90px;
+            padding-right: 5px;
+        }
+
+
+    }
+
+        /*-------320px TO 480px -----*/
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+
+    /*Navigation Bar*/
+    .fa-bars {
+        color: #fff;
+    }
+
+    #head .bg-primary {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px dotted #fff;
+    }
+    
+/*Carousel*/
     .carousel {
         margin-top: 0px;
     }
 
+    .carousel-caption-body {
+        margin-top: 120px !important;
+    }
+    
     .carousel-caption-body h1{
-        margin-top: 300px;
-        font-size: 1.5em !important;
-     }
-
-     .carousel-caption-body .btn {
-        margin-top: -3px !important;
+        font-size: 1.2em !important;
     }
 
-    /*-------Program-----*/
-
+    .carousel-caption-body .btn { 
+        margin-top: 10px;
+        width: 50%;
+    }
+/*Program*/
     #program {
-        margin-top:250px !important;
-        position: relative;
-        padding-bottom: 60px;
+        margin-top:220px;
+        padding: 0px;
     }
 
+    .program-single{
+        width: 100%;
+        margin-bottom: 30px;
+        filter: grayscale(0);
+
+    }
+
+    .program-single .btn{
+        margin-top: -80px;
+        min-width: 50%;
+        opacity: 1;
+    }
+    
     .offer {
-        
-        border-radius: 50%;
-        margin: auto;
-        padding: 25px 7px 0px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        color: #333;
-        top: 65px !important;
-        left: 10px !important;
-        
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 0%;
+        padding: 10px 5px;
+        font-size: 16px;
+        box-shadow: 11px 12px 33px -10px (242,242,242,1);
+        top: 20px;
+        left: 10px;
     }
 
-    /*------member----*/
-    #membership h1 {
-        font-size: 2em !important;
-    }
+    /*quote*/
 
-    /*----quote----*/
     #quote {
-        padding: 100px 0px 60px !important;
+        margin-top: -40px;
+        padding: 150px 0px 60px;
+        min-height: 100%;
     }
+
     #quote h3 {
         font-size: 3.5em;
-        border-right: none;
+        letter-spacing: 1px;
+        max-width: auto;
+        border-right: none; 
         text-align: center;
-        width: 100%;     
+        margin: auto;  
     }
     
     #quote h3::after {
-        font-size: 1.0em !important;
+        font-size: 2em;
         padding-left: 0px;
     }
 
-    /*-----This week-----*/
-
-    #this-week {
-    padding: 60px 0px 60px;
-    }
-
-    #this-week p {
-        display: none;
-    }
-
-    .week {
-    width: 100%;
-    margin-top: 100px;
-    background-color: #fff;
-}
+    /*This Week*/
 
     .week ul {
         display: flex;
-        justify-content: center;
-        height: 50px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px;
+        background-color: #fff;
     } 
-
-    .week ul li {
-        list-style: none;
-        min-height: 100%;
-        width: 100%;
-        padding-top: 10px;
-        
+    
+    .week ul li:hover {
+        background-color: #007bff;
     }
 
-    .week ul li a {
-        font-size: 9px !important;
-    }
-        
-    /*-----Our Team----*/
+    /*Our Team*/
     .col-md-4 img {
-        min-height: auto;
+        max-height: 350px;
+        max-width: 320px;
+        transition: 0.5s;
+        filter: grayscale(1);
+    }
+
+    /*Contact*/
+    #contact {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 3.5em;
+        letter-spacing: 0px;
+        border-right: none;   
+    }
+
+    .form-body {
+        margin-top: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    
+    }
+
+    input[type="button"] {
+        width: 50%;   
+    }
+
+    .textarea {
+        max-width: 100%;
+        max-height: 100px;
+        margin-top: 25px;
+        background-color: transparent !important;
+        border: 1px solid #fff;
+        padding: 10px 0px 0px 10px;
+    }
+
+    /*Footer*/
+
+    .about {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .post-content {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #footer h5 {
+        padding: 30px 0px 10px;
+    }
+    
+    .apps {
+        margin-top: 25px;
+    }
+    
+    .apps img {
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+
+    
+  }
+
+        /*-------480px TO 640px -----*/
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+
+    /*Navigation Bar*/
+    .fa-bars {
+        color: #fff;
+    }
+
+    #head .bg-primary {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px dotted #fff;
+    }
+    
+/*Carousel*/
+    .carousel {
+        margin-top: 0px;
+    }
+
+    .carousel-caption-body {
+        margin-top: 120px !important;
+    }
+    
+    .carousel-caption-body h1{
+        font-size: 1.2em !important;
+    }
+
+    .carousel-caption-body .btn { 
+        margin-top: 10px;
+        width: 50%;
+    }
+/*Program*/
+    #program {
+        margin-top: 110px;
+        padding: 0px;
+    }
+
+    .program-single{
+        width: 100%;
+        margin-bottom: 30px;
+        filter: grayscale(0);
+
+    }
+
+    .program-single .btn{
+        margin-top: -80px;
+        min-width: 40%;
+        min-height: 47px;
+        font-size: 16px;
+        opacity: 1;
+    }
+    
+    .offer {
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 0%;
+        padding: 10px 5px;
+        font-size: 16px;
+        box-shadow: 11px 12px 33px -10px (242,242,242,1);
+        top: 20px;
+        left: 50px;
+    }
+
+    /*quote*/
+
+    #quote {
+        margin-top: 0px;
+        padding: 200px 0px 60px;
+        min-height: 100%;
+    }
+
+    #quote h3 {
+        font-size: 5em;
+        letter-spacing: 1px;
+        max-width: auto;
+        border-right: none; 
+        text-align: center;
+        margin: auto;  
+    }
+    
+    #quote h3::after {
+        text-align: center;
+        font-size: 2em;
+        padding-top: 50px;
+        margin-left: -450px;
+    }
+
+    /*This Week*/
+
+    .week ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px;
+        background-color: #fff;
+    } 
+    
+    .week ul li:hover {
+        background-color: #007bff;
+    }
+
+    /*Our Team*/
+    .col-md-4 img {
+        max-height: 350px;
+        max-width: 320px;
+        transition: 0.5s;
+        filter: grayscale(1);
+    }
+
+    /*Contact*/
+    #contact {
+        padding: 100px 0px;
+        text-align: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 3.5em;
+        letter-spacing: 0px;
+        border-right: none;   
+    }
+
+    .form-body {
+        margin-top: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    
+    }
+
+    input[type="button"] {
+        width: 50%;   
+    }
+
+    .textarea {
+        max-width: 100%;
+        max-height: 100px;
+        margin-top: 25px;
+        background-color: transparent !important;
+        border: 1px solid #fff;
+        padding: 10px 0px 0px 10px;
+    }
+
+    input[type="button"] {
+        min-width: 40%;   
+        min-height: 47px;
+        font-size: 16px;
+       
+    }
+
+    /*Footer*/
+
+    .about {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .post-content {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #footer h5 {
+        padding: 30px 0px 10px;
+    }
+    
+    .apps {
+        margin-top: 25px;
+    }
+    
+    .apps img {
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
+
+    
+}
+
+        /*-------640px TO 768px -----*/
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+
+     /*Navigation Bar*/
+     .fa-bars {
+        color: #fff;
+    }
+
+    #head .bg-primary {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        border-bottom: 1px dotted #fff;
+    }
+    
+/*Carousel*/
+    .carousel {
+        margin-top: 0px;
+    }
+
+    .carousel-caption-body {
+        margin-top: -80px;
+    }
+    
+    .carousel-caption-body h1{
+        font-size: 3.5em;
+    }
+
+    .carousel-caption-body .btn { 
+        margin-top: 10px;
+        width: 40%;
+    }
+/*Program*/
+    #program {
+        margin-top: 420px;
+        padding: 0px;
+    }
+
+    .program-single{
+        width: 100%;
+        margin-bottom: 30px;
+        filter: grayscale(0);
+
+    }
+
+    .program-single .btn{
+        margin-top: -80px;
+        min-width: 30%;
+        min-height: 47px;
+        font-size: 16px;
+        opacity: 1;
+    }
+    
+    .offer {
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 0%;
+        padding: 10px 5px;
+        font-size: 16px;
+        box-shadow: 11px 12px 33px -10px (242,242,242,1);
+        top: 20px;
+        left: 24px;
+    }
+
+    /*quote*/
+
+    #quote {
+        margin-top: 0px;
+        padding: 200px 0px 60px;
+        min-height: 100%;
+    }
+
+    #quote h3 {
+        font-size: 5em;
+        letter-spacing: 1px;
+        max-width: auto;
+        border-right: none; 
+        text-align: center;
+        margin: auto;  
+    }
+    
+    #quote h3::after {
+        text-align: center;
+        font-size: 2em;
+        padding-top: 50px;
+        margin-left: -450px;
+    }
+        /*Most of Peopel*/
+    #most-people h1 {
+        text-align: center;
+        font-size: 3em !important;
+    }
+
+         /*This Week*/
+    .week ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px;
+        background-color: #fff;
+    } 
+    
+    .week ul li:hover {
+        background-color: #007bff;
+    }
+
+    #this-week .col-md-3 {
+        margin-bottom: 50px;
+        min-width: 350px;
+    }
+
+        /*MemberShip*/
+    .membership-head{
+        font-size: 25px;
+    }
+    
+    .membership-head span {
+        font-size: 14px;
+    }
+    
+    .membership-single ul li {
+        font-size: 12px;
+    }
+    
+    .membership-body .fa {
+        padding: 0px 20px 0px 0px;
+     }
+
+     .membership-body .fa-check {
+        color: #01ad7b;
+    }
+
+         /*Our Team*/
+    .other-program-single h5 {
+        font-size: 1.5em;
+    }
+
+    #team .col-md-4{
+        padding-top: 80px; 
         min-width: 100%;
+    }
+
+    .social ul {  
+        width: 100px;
+        margin: auto;
+    }
+
+        /*Contact*/
+    #contact {
+        min-height: 60%;
+        padding: 100px 0px;
+        text-align: center;
+    }
+
+    #contact h3 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 3.5em;
+        letter-spacing: 0px;
+        border-right: none;   
+    }
+
+    .form-body {
+        margin-top: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    
+    }
+
+    input[type="button"] {
+        width: 50%;   
+    }
+
+    .textarea {
+        max-width: 100%;
+        max-height: 100px;
+        margin-top: 25px;
+        background-color: transparent !important;
+        border: 1px solid #fff;
+        padding: 10px 0px 0px 10px;
+    }
+
+    input[type="button"] {
+        min-width: 40%;   
+        min-height: 47px;
+        font-size: 16px;
+       
+    }
+
+    /*Footer*/
+
+    #footer .col-md-3{
+        min-width: 100%;
+    }
+
+    .about {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .post-content {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    #footer h5 {
+        padding: 30px 0px 10px;
+    }
+    
+    .apps {
+        margin-top: 25px;
+    }
+    
+    .apps img {
+        display: block;
+        float: left;
+        padding-right: 10px;
     }
 
 }
 
-    /*------Contact------*/
+        /*-------768px TO 1024px -----*/
 
-    #contact h3 {
-        padding: 20px 0px;
-        text-align: center;
-        font-size: 2em;
-        border-right: none !important;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /*Carousel*/
+    .carousel-caption-body .btn {
+        margin-top: 0px;
     }
 
-    .form-body {
-        min-height: 400px;
-        width: 230px;
-        margin-left: -30px;
-        padding-top: 5px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
+    /*Program*/
+    #program {
+        margin-top:400px;
+        padding: 0px;
     }
 
-    input[type="button"] {
-        margin-top: 10px;
-        width: 100%;   
-        height: 40px; 
+    .program-single{
+        width: calc(100% / 3);
+        margin-bottom: 30px;
+        filter: grayscale(0);
+
     }
 
-    .form-group textarea {
+    .program-single .btn{
+        margin-top: -80px;
+        min-width: 50%;
+        opacity: 1;
+    }
+    
+    .offer {
+        width: 70px;
+        height: 40px;
+        border: none;
+        border-radius: 0%;
+        padding: 10px 5px;
+        font-size: 16px;
+        box-shadow: 11px 12px 33px -10px (242,242,242,1);
+        top: 20px;
+        left: 33px;
+    }
+
+
+    #quote h3::after {
+        font-size: 3em;
+        padding-left: 370px;
+    }
+
+    .textarea {
         max-width: 100%;
+        max-height: 100px;
+        margin-top: 25px;
+        background-color: transparent !important;
+        border: 1px solid #fff;
+        padding: 10px 0px 0px 10px;
     }
-
-    /*-----Foooter-----*/
 
     .apps img {
-        margin-top: -10px;
-        padding-bottom: 15px;
-    }
-
-    /*------321 t0 374 PX-----*/
-
-    @media all and (min-width: 321px) and (max-width: 375px){
-        /*----Carousel---*/
-        .carousel {
-            margin-top: 0px;
-        }
-    
-        .carousel-caption-body h1{
-            margin-top: 300px;
-            font-size: 1.5em !important;
-         }
-    
-         .carousel-caption-body .btn {
-            margin-top: -3px !important;
-        }
-    
-        /*-------Program-----*/
-    
-        #program {
-            margin-top:250px !important;
-            position: relative;
-            padding-bottom: 60px;
-        }
-    
-        .offer { 
-            border-radius: 50%;
-            margin: auto;
-            padding: 25px 7px 0px;
-            font-family: 'Raleway', sans-serif;
-            font-size: 18px;
-            color: #333;
-            top: 65px !important;
-            left: 10px !important;
-            
-        }
-    
-        /*------member----*/
-        #membership h1 {
-            font-size: 2em !important;
-        }
-    
-        /*----quote----*/
-        #quote {
-            padding: 100px 0px 60px !important;
-        }
-        #quote h3 {
-            font-size: 3.5em;
-            border-right: none;
-            text-align: center;
-            width: 100%;     
-        }
-        
-        #quote h3::after {
-            font-size: 1.0em !important;
-            padding-left: 0px;
-        }
-    
-        /*-----This week-----*/
-    
-        #this-week {
-        padding: 60px 0px 60px;
-        }
-    
-        #this-week p {
-            display: none;
-        }
-    
-        .week {
-        width: 100%;
-        margin-top: 100px;
-        background-color: #fff;
+        display: block;
+        float: left;
+        width: 90px;
+        height: 30px;
+        padding-right: 5px;
     }
     
-        .week ul {
-            display: flex;
-            justify-content: center;
-            height: 50px;
-        } 
-    
-        .week ul li {
-            list-style: none;
-            min-height: 100%;
-            width: 100%;
-            padding-top: 10px;
-            
-        }
-    
-        .week ul li a {
-        font-size: 9px !important;
-        }
-            
-            /*-----Our Team----*/
-            .col-md-4 img {
-                min-height: auto;
-                min-width: 100%;
-            }
-    
+}
 
+
+/*-------Greater than 1024px -----*/
+
+@media only screen and (min-width: 1025px) {
+
+    /*Program*/
+    #program {
+        margin-top: 600px;
+        padding: 0px;
     }
 
-    /*------375 t0 425 PX-----*/
+    .program-single{
+        width: calc(100% / 3);
+        margin-bottom: 30px;
+        filter: grayscale(1);
 
-    @media all and (min-width: 376px) and (max-width: 425px){
-
-        /*----Carousel---*/
-        .carousel {
-            margin-top: 0px;
-        }
-    
-        .carousel-caption-body h1{
-            margin-top: 300px;
-            font-size: 1.5em !important;
-         }
-    
-         .carousel-caption-body .btn {
-            margin-top: -3px !important;
-        }
-    
-        /*-------Program-----*/
-    
-        #program {
-            margin-top:250px !important;
-            position: relative;
-            padding-bottom: 60px;
-        }
-    
-        .offer { 
-            border-radius: 50%;
-            margin: auto;
-            padding: 25px 7px 0px;
-            font-family: 'Raleway', sans-serif;
-            font-size: 18px;
-            color: #333;
-            top: 65px !important;
-            left: 10px !important;
-            
-        }
-    
-        /*------member----*/
-        #membership h1 {
-            font-size: 2em !important;
-        }
-    
-        /*----quote----*/
-        #quote {
-            padding: 100px 0px 60px !important;
-        }
-        #quote h3 {
-            font-size: 3.5em;
-            border-right: none;
-            text-align: center;
-            width: 100%;     
-        }
-        
-        #quote h3::after {
-            font-size: 1.0em !important;
-            padding-left: 0px;
-        }
-    
-        /*-----This week-----*/
-    
-        #this-week {
-        padding: 60px 0px 60px;
-        }
-    
-        #this-week p {
-            display: none;
-        }
-    
-        .week {
-        width: 100%;
-        margin-top: 100px;
-        background-color: #fff;
     }
     
-        .week ul {
-            display: flex;
-            justify-content: center;
-            height: 50px;
-        } 
-    
-        .week ul li {
-            list-style: none;
-            min-height: 100%;
-            width: 100%;
-            padding-top: 10px;
-            
-        }
-    
-        .week ul li a {
-        font-size: 9px !important;
-        }
-            
-            /*-----Our Team----*/
-            .col-md-4 img {
-                min-height: auto;
-                min-width: 100%;
-            }
-    
-        }
-    
-        /*------Contact------*/
-    
-        #contact h3 {
-            padding: 20px 0px;
-            text-align: center;
-            font-size: 2em;
-            border-right: none !important;
-        }
-    
-        .form-body {
-            min-height: 400px;
-            width: 330px;
-            margin-left: -30px;
-            padding-top: 5px;
-            border-top-left-radius: 0px;
-            border-bottom-left-radius: 0px;
-        }
-    
-        input[type="button"] {
-            margin-top: 10px;
-            width: 100%;   
-            height: 40px; 
-        }
-    
-        .form-group textarea {
-            max-width: 100%;
-        }
-    
-        /*-----Foooter-----*/
-    
-        .apps img {
-            margin-top: -10px;
-            padding-bottom: 15px;
-        }
-
-
-
-
-
-
-    /*------768PX------*/
-
-    @media all and (max-width: 768px) {
-
-        .navbar-nav{
-            text-align: center;
-            
-        }
-
-        .nav-item {
-            width: 40%;
-            margin: auto;
-            padding-top: 15px;
-            border-bottom: 1px dotted #808080;
-        }
-        
-        .carousel {
-            margin-top: 0px;
-        }
-
-        .carousel-caption-body .btn {
-            margin-top: 50px;
-            width: 50%;
-        }
-
-        /*----Program----*/
-        #program {
-            margin: 450px 0px 200px;
-            background-color: #fffaf0;
-        }
-
-        .program-single {
-            margin-top: 60px;
-            width: 100%;
-            height: auto;
-        }
-        
-        .program-single .btn{     
-            padding: 5px 10px;
-            margin-top: -40px;
-            width: 150px;  
-        }
-
-    .offer {
-        top: 30px;
-        left: 90px;   
-    }
-
-    /*----quote----*/
-    #quote {
-        padding: 220px 0px 60px;
-    }
-    #quote h3 {
-        font-size: 3.5em;
-        border-right: none;
-        text-align: center;
-        width: 100%;     
-    }
-    
-    #quote h3::after {
-        font-size: 2.0em;
-        padding-left: 0px;
-    }
-
-    /*-----Contact----*/
-    #contact h3 {    
-        margin-top: 20px;
-        padding: 20px 0px 20px;
-        text-align: center;
-        border-right: none;  
-    }
-
-    /*-----Footer----*/
-    .about {
-        width: 100%;
-        padding-bottom: 30px;
-        text-align: justify;
-    }
-
-    .quick-link {
-        display: none;
-    }
-
-    .post{
-        margin-bottom: 20px;
-    }
-
-
 }

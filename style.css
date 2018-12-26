@@ -52,7 +52,7 @@ span {
 }
 
 #head .bg-primary {
-    background-color: rgba(0, 0, 0, .7) !important;
+    background-color: rgba(0, 0, 0, .5) !important;
 }
 
 .carousel {
@@ -71,7 +71,7 @@ span {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
     margin-top: 30px;
-    width: 20%;
+    width: 30%;
     border-style: none !important;
     border-radius: 0px;
     padding: 10px 0px;
@@ -138,6 +138,8 @@ span {
 
 .program-single .btn{
     font-family: 'Raleway', sans-serif;
+    min-width: 40%;
+    height: 40px;
     font-size: 14px;
     letter-spacing: 1px;
     border-style: none !important;
@@ -169,7 +171,6 @@ span {
     color: #333;
     top: -20px;
     left: 50px;
-    
 }
 
 
@@ -302,7 +303,6 @@ span {
 
 .week ul li:hover {
     background-color: #01ad7b;
-    
 }
 
 .week ul li a {
@@ -603,7 +603,6 @@ input[type="button"] {
 }
 
 .textarea {
-    /* max-width: 440px; */
     max-height: 100px;
     margin-top: 25px;
     background-color: transparent !important;
